@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapInfo>
+	<mapNode>
+		<!-- type: 0 靠近单个十字中心的节点  1出生点的下一个节点 2回收点 3两个十字的连接中间点 4出生点-->
+		<node x="10" y="234" code="0" type="2" rightChild="-1" faceChild="1" />
+		<node x="10" y="256" code="1" type="1" rightChild="-1" faceChild="13" />
+		<node x="194" y="480" code="2" type="2" rightChild="-1" faceChild="3" />
+		<node x="214" y="480" code="3" type="1" rightChild="-1" faceChild="15" />
+		<node x="646" y="480" code="4" type="2" rightChild="-1" faceChild="5" />
+		<node x="666" y="480" code="5" type="1" rightChild="-1" faceChild="17" />
+		<node x="850" y="256" code="6" type="2" rightChild="-1" faceChild="7" />
+		<node x="850" y="234" code="7" type="1" rightChild="-1" faceChild="19" />
+		<node x="666" y="10" code="8" type="2" rightChild="-1" faceChild="9" />
+		<node x="646" y="10" code="9" type="1" rightChild="-1" faceChild="21" />
+		<node x="214" y="10" code="10" type="2" rightChild="-1" faceChild="11" />
+		<node x="194" y="10" code="11" type="1" rightChild="-1" faceChild="23" />
+		<node x="164" y="234" code="12" type="0" rightChild="-1" faceChild="0" />
+		<node x="164" y="256" code="13" type="0" rightChild="14" faceChild="24" />
+		<node x="194" y="286" code="14" type="0" rightChild="-1" faceChild="2" />
+		<node x="214" y="286" code="15" type="0" rightChild="24" faceChild="22" />
+		<node x="646" y="286" code="16" type="0" rightChild="-1" faceChild="4" />
+		<node x="666" y="286" code="17" type="0" rightChild="18" faceChild="20" />
+		<node x="696" y="256" code="18" type="0" rightChild="-1" faceChild="6" />
+		<node x="696" y="234" code="19" type="0" rightChild="20" faceChild="26" />
+		<node x="666" y="204" code="20" type="0" rightChild="-1" faceChild="8" />
+		<node x="646" y="204" code="21" type="0" rightChild="26" faceChild="16" />
+		<node x="214" y="204" code="22" type="0" rightChild="-1" faceChild="10" />
+		<node x="194" y="204" code="23" type="0" rightChild="12" faceChild="14" />
+		<node x="244" y="256" code="24" type="3" rightChild="-1" faceChild="25" />
+		<node x="616" y="256" code="25" type="3" rightChild="16" faceChild="18" />
+		<node x="616" y="234" code="26" type="3" rightChild="-1" faceChild="27" />
+		<node x="244" y="234" code="27" type="3" rightChild="22" faceChild="12" />
+		
+		<node x="-10" y="256" code="28" type="4" rightChild="-1" faceChild="1" />
+		<node x="214" y="500" code="29" type="4" rightChild="-1" faceChild="3" />
+		<node x="666" y="500" code="30" type="4" rightChild="-1" faceChild="5" />
+		<node x="870" y="234" code="31" type="4" rightChild="-1" faceChild="7" />
+		<node x="646" y="-10" code="32" type="4" rightChild="-1" faceChild="9" />
+		<node x="194" y="-10" code="33" type="4" rightChild="-1" faceChild="11" />
+	</mapNode>
+	<mapLight>
+		<part>
+			<lightW nodeA="12" nodeB="24" />
+			<lightH nodeA="14" nodeB="22" />
+		</part>
+		<part>
+			<lightW nodeA="18" nodeB="26" />
+			<lightH nodeA="16" nodeB="20" />
+		</part>
+	</mapLight>
+</mapInfo>
